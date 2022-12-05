@@ -1,0 +1,531 @@
+[{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--01e28736-2ffc-455b-9880-ed4d1407ae07",
+    "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "created": "2021-01-06T17:46:35.134Z",
+    "modified": "2022-09-15T19:49:18.799Z",
+    "name": "Indrik Spider",
+    "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) is a Russia-based cybercriminal group that has been active since at least 2014. [Indrik Spider](https://attack.mitre.org/groups/G0119) initially started with the [Dridex](https://attack.mitre.org/software/S0384) banking Trojan, and then by 2017 they began running ransomware operations using [BitPaymer](https://attack.mitre.org/software/S0570), [WastedLocker](https://attack.mitre.org/software/S0612), and Hades ransomware.(Citation: Crowdstrike Indrik November 2018)(Citation: Crowdstrike EvilCorp March 2021)(Citation: Treasury EvilCorp Dec 2019)",
+    "aliases": [
+        "Indrik Spider",
+        "Evil Corp"
+    ],
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/groups/G0119",
+            "external_id": "G0119"
+        },
+        {
+            "source_name": "Evil Corp",
+            "description": "(Citation: Crowdstrike EvilCorp March 2021)(Citation: Treasury EvilCorp Dec 2019)"
+        },
+        {
+            "source_name": "Crowdstrike Indrik November 2018",
+            "description": "Frankoff, S., Hartley, B. (2018, November 14). Big Game Hunting: The Evolution of INDRIK SPIDER From Dridex Wire Fraud to BitPaymer Targeted Ransomware. Retrieved January 6, 2021.",
+            "url": "https://www.crowdstrike.com/blog/big-game-hunting-the-evolution-of-indrik-spider-from-dridex-wire-fraud-to-bitpaymer-targeted-ransomware/"
+        },
+        {
+            "source_name": "Crowdstrike EvilCorp March 2021",
+            "description": "Podlosky, A., Feeley, B. (2021, March 17). INDRIK SPIDER Supersedes WastedLocker with Hades Ransomware to Circumvent OFAC Sanctions. Retrieved September 15, 2021.",
+            "url": "https://www.crowdstrike.com/blog/hades-ransomware-successor-to-indrik-spiders-wastedlocker/"
+        },
+        {
+            "source_name": "Treasury EvilCorp Dec 2019",
+            "description": "U.S. Department of Treasury. (2019, December 5). Treasury Sanctions Evil Corp, the Russia-Based Cybercriminal Group Behind Dridex Malware. Retrieved September 15, 2021.",
+            "url": "https://home.treasury.gov/news/press-releases/sm845"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+    ],
+    "x_mitre_attack_spec_version": "2.1.0",
+    "x_mitre_deprecated": false,
+    "x_mitre_domains": [
+        "enterprise-attack"
+    ],
+    "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "x_mitre_version": "2.1"
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",
+    "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "created": "2020-07-15T17:55:11.252Z",
+    "modified": "2022-04-25T14:00:00.188Z",
+    "name": "IcedID",
+    "description": "[IcedID](https://attack.mitre.org/software/S0483) is a modular banking malware designed to steal financial information that has been observed in the wild since at least 2017.  [IcedID](https://attack.mitre.org/software/S0483)  has been downloaded by [Emotet](https://attack.mitre.org/software/S0367) in multiple campaigns.(Citation: IBM IcedID November 2017)(Citation: Juniper IcedID June 2020)",
+    "is_family": true,
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0483",
+            "external_id": "S0483"
+        },
+        {
+            "source_name": "IBM IcedID November 2017",
+            "description": "Kessem, L., et al. (2017, November 13). New Banking Trojan IcedID Discovered by IBM X-Force Research. Retrieved July 14, 2020.",
+            "url": "https://securityintelligence.com/new-banking-trojan-icedid-discovered-by-ibm-x-force-research/"
+        },
+        {
+            "source_name": "Juniper IcedID June 2020",
+            "description": "Kimayong, P. (2020, June 18). COVID-19 and FMLA Campaigns used to install new IcedID banking malware. Retrieved July 14, 2020.",
+            "url": "https://blogs.juniper.net/en-us/threat-research/covid-19-and-fmla-campaigns-used-to-install-new-icedid-banking-malware"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+    ],
+    "x_mitre_aliases": [
+        "IcedID"
+    ],
+    "x_mitre_attack_spec_version": "2.1.0",
+    "x_mitre_domains": [
+        "enterprise-attack"
+    ],
+    "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_version": "1.0"
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",
+    "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "created": "2021-09-27T19:35:35.326Z",
+    "modified": "2021-10-15T21:47:13.084Z",
+    "name": "QakBot",
+    "description": "[QakBot](https://attack.mitre.org/software/S0650) is a modular banking trojan that has been used primarily by financially-motivated actors since at least 2007. [QakBot](https://attack.mitre.org/software/S0650) is continuously maintained and developed and has evolved from an information stealer into a delivery agent for ransomware, most notably [ProLock](https://attack.mitre.org/software/S0654) and [Egregor](https://attack.mitre.org/software/S0554).(Citation: Trend Micro Qakbot December 2020)(Citation: Red Canary Qbot)(Citation: Kaspersky QakBot September 2021)(Citation: ATT QakBot April 2021)",
+    "is_family": true,
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0650",
+            "external_id": "S0650"
+        },
+        {
+            "source_name": "Pinkslipbot",
+            "description": "(Citation: Kaspersky QakBot September 2021)(Citation: ATT QakBot April 2021)"
+        },
+        {
+            "source_name": "QuackBot",
+            "description": "(Citation: Kaspersky QakBot September 2021)"
+        },
+        {
+            "source_name": "QBot",
+            "description": "(Citation: Trend Micro Qakbot December 2020)(Citation: Red Canary Qbot)(Citation: Kaspersky QakBot September 2021)(Citation: ATT QakBot April 2021)"
+        },
+        {
+            "source_name": "Trend Micro Qakbot December 2020",
+            "description": "Trend Micro. (2020, December 17). QAKBOT: A decade-old malware still with new tricks. Retrieved September 27, 2021.",
+            "url": "https://success.trendmicro.com/solution/000283381"
+        },
+        {
+            "source_name": "Red Canary Qbot",
+            "description": "Rainey, K. (n.d.). Qbot. Retrieved September 27, 2021.",
+            "url": "https://redcanary.com/threat-detection-report/threats/qbot/"
+        },
+        {
+            "source_name": "Kaspersky QakBot September 2021",
+            "description": "Kuzmenko, A. et al. (2021, September 2). QakBot technical analysis. Retrieved September 27, 2021.",
+            "url": "https://securelist.com/qakbot-technical-analysis/103931/"
+        },
+        {
+            "source_name": "ATT QakBot April 2021",
+            "description": "Morrow, D. (2021, April 15). The rise of QakBot. Retrieved September 27, 2021.",
+            "url": "https://cybersecurity.att.com/blogs/labs-research/the-rise-of-qakbot"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+    ],
+    "x_mitre_aliases": [
+        "QakBot",
+        "Pinkslipbot",
+        "QuackBot",
+        "QBot"
+    ],
+    "x_mitre_attack_spec_version": "2.1.0",
+    "x_mitre_contributors": [
+        "Edward Millington"
+    ],
+    "x_mitre_domains": [
+        "enterprise-attack"
+    ],
+    "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_version": "1.0"
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--04378e79-4387-468a-a8f7-f974b8254e44",
+    "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "created": "2022-08-19T20:28:36.981Z",
+    "modified": "2022-10-21T21:43:41.253Z",
+    "name": "Bumblebee",
+    "description": "[Bumblebee](https://attack.mitre.org/software/S1039) is a custom loader written in C++ that has been used by multiple threat actors, including possible initial access brokers, to download and execute additional payloads since at least March 2022. [Bumblebee](https://attack.mitre.org/software/S1039) has been linked to ransomware operations including [Conti](https://attack.mitre.org/software/S0575), Quantum, and Mountlocker and derived its name from the appearance of \"bumblebee\" in the user-agent.(Citation: Google EXOTIC LILY March 2022)(Citation: Proofpoint Bumblebee April 2022)(Citation: Symantec Bumblebee June 2022)\n",
+    "is_family": true,
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S1039",
+            "external_id": "S1039"
+        },
+        {
+            "source_name": "Symantec Bumblebee June 2022",
+            "description": "Kamble, V. (2022, June 28). Bumblebee: New Loader Rapidly Assuming Central Position in Cyber-crime Ecosystem. Retrieved August 24, 2022.",
+            "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/bumblebee-loader-cybercrime"
+        },
+        {
+            "source_name": "Proofpoint Bumblebee April 2022",
+            "description": "Merriman, K. and Trouerbach, P. (2022, April 28). This isn't Optimus Prime's Bumblebee but it's Still Transforming. Retrieved August 22, 2022.",
+            "url": "https://www.proofpoint.com/us/blog/threat-insight/bumblebee-is-still-transforming"
+        },
+        {
+            "source_name": "Google EXOTIC LILY March 2022",
+            "description": "Stolyarov, V. (2022, March 17). Exposing initial access broker with ties to Conti. Retrieved August 18, 2022.",
+            "url": "https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+    ],
+    "x_mitre_aliases": [
+        "Bumblebee"
+    ],
+    "x_mitre_attack_spec_version": "2.1.0",
+    "x_mitre_contributors": [
+        "Phill Taylor, BT Security"
+    ],
+    "x_mitre_deprecated": false,
+    "x_mitre_domains": [
+        "enterprise-attack"
+    ],
+    "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "x_mitre_platforms": [
+        "Windows"
+    ],
+    "x_mitre_version": "1.0"
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+    "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "created": "2017-12-14T16:46:06.044Z",
+    "modified": "2022-10-12T23:24:12.980Z",
+    "name": "Cobalt Strike",
+    "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) is a commercial, full-featured, remote access tool that bills itself as \u201cadversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors\u201d. Cobalt Strike\u2019s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system.(Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, [Cobalt Strike](https://attack.mitre.org/software/S0154) leverages the capabilities of other well-known tools such as Metasploit and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: cobaltstrike manual)",
+    "is_family": true,
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "url": "https://attack.mitre.org/software/S0154",
+            "external_id": "S0154"
+        },
+        {
+            "source_name": "cobaltstrike manual",
+            "description": "Strategic Cyber LLC. (2017, March 14). Cobalt Strike Manual. Retrieved May 24, 2017.",
+            "url": "https://web.archive.org/web/20210825130434/https://cobaltstrike.com/downloads/csmanual38.pdf"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+    ],
+    "x_mitre_aliases": [
+        "Cobalt Strike"
+    ],
+    "x_mitre_attack_spec_version": "2.1.0",
+    "x_mitre_contributors": [
+        "Martin Sohn Christensen, Improsec",
+        "Josh Abraham"
+    ],
+    "x_mitre_deprecated": false,
+    "x_mitre_domains": [
+        "enterprise-attack"
+    ],
+    "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+    "x_mitre_platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+    ],
+    "x_mitre_version": "1.9"
+},
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--80d566da-08ef-4c3c-8d49-53c20a8cc5a6",
+    "created": "2022-11-30T07:05:11.43766Z",
+    "modified": "2022-11-30T07:05:11.43766Z",
+    "name": "Silence Group"
+},
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--1e7e691e-bf47-497f-9a47-5f3472c53964",
+    "created": "2022-11-30T07:05:11.43766Z",
+    "modified": "2022-11-30T07:05:11.43766Z",
+    "name": "TA569"
+},
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--31bf96b7-1baa-452f-82a6-4f162ce27bf3",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "TA505"
+},
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--a1707187-8918-497d-be93-9b8867bf5b72",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "Lunar Spider",
+    "aliases": [
+        "GOLD STRATHMORE"
+    ]
+},
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--6d2a4e1c-0328-472e-9c72-979aee91b2cb",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "TA578"
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--ed10ed75-b0b6-4203-b7af-a020aa82bdaf",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "Raspberry Robin",
+    "is_family": false
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--864b1e6f-3fa0-4ceb-9c26-8f1cee6bc080",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "ROSHYTAK",
+    "is_family": false
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--cb812815-2ba8-475b-a3e6-09477e050849",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "SocGholish",
+    "is_family": false
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--4c5f4b89-b45d-48cc-9b14-cf7c2f84f025",
+    "created": "2022-11-30T07:05:11.45326Z",
+    "modified": "2022-11-30T07:05:11.45326Z",
+    "name": "TrueBot",
+    "is_family": false
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--5aefc0a6-8d11-4910-a0ae-2502eca60125",
+    "created": "2022-11-30T07:08:14.921022Z",
+    "modified": "2022-11-30T07:08:14.921022Z",
+    "name": "LockBit Ransomware",
+    "is_family": false
+},
+{
+    "type": "malware",
+    "spec_version": "2.1",
+    "id": "malware--9a9a7e05-0696-4c9d-a6e0-77eda72cbb30",
+    "created": "2022-11-30T07:09:30.980719Z",
+    "modified": "2022-11-30T07:09:30.980719Z",
+    "name": "Cl0p Ransomware",
+    "is_family": false
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--33fe38f1-2bf8-4759-b4ff-f0da0513fb50",
+    "created": "2022-11-30T07:14:13.252108Z",
+    "modified": "2022-11-30T07:14:13.252108Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--ed10ed75-b0b6-4203-b7af-a020aa82bdaf",
+    "target_ref": "malware--864b1e6f-3fa0-4ceb-9c26-8f1cee6bc080"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--6c6361d0-4714-46a6-9b69-5d8559964e9e",
+    "created": "2022-11-30T07:14:13.252108Z",
+    "modified": "2022-11-30T07:14:13.252108Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--ed10ed75-b0b6-4203-b7af-a020aa82bdaf",
+    "target_ref": "malware--cb812815-2ba8-475b-a3e6-09477e050849"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--bb7e75df-6480-4c27-bd3d-c938a564c16b",
+    "created": "2022-11-30T07:14:13.258633Z",
+    "modified": "2022-11-30T07:14:13.258633Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--864b1e6f-3fa0-4ceb-9c26-8f1cee6bc080",
+    "target_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--a8ed6438-c3a1-4a4e-bd86-62a4938faaee",
+    "created": "2022-11-30T07:14:13.260177Z",
+    "modified": "2022-11-30T07:14:13.260177Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--864b1e6f-3fa0-4ceb-9c26-8f1cee6bc080",
+    "target_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--b9a18ad7-7963-4c4a-bcb8-ba7100dd0e57",
+    "created": "2022-11-30T07:14:13.260177Z",
+    "modified": "2022-11-30T07:14:13.260177Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--864b1e6f-3fa0-4ceb-9c26-8f1cee6bc080",
+    "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--e83ca648-7308-47ca-b5cc-94f4cd24212c",
+    "created": "2022-11-30T07:14:13.260177Z",
+    "modified": "2022-11-30T07:14:13.260177Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--cb812815-2ba8-475b-a3e6-09477e050849",
+    "target_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--1930c44b-80b2-486c-b77a-5f88995ac9bb",
+    "created": "2022-11-30T07:14:13.260177Z",
+    "modified": "2022-11-30T07:14:13.260177Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+    "target_ref": "malware--5aefc0a6-8d11-4910-a0ae-2502eca60125"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--f340ad50-ba52-49ba-a110-9c2fa05b2a6c",
+    "created": "2022-11-30T07:14:13.260177Z",
+    "modified": "2022-11-30T07:14:13.260177Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",
+    "target_ref": "malware--4c5f4b89-b45d-48cc-9b14-cf7c2f84f025"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--7ecdc99c-a670-4e3d-b2da-7c27de2f52fd",
+    "created": "2022-11-30T07:14:13.260177Z",
+    "modified": "2022-11-30T07:14:13.260177Z",
+    "relationship_type": "drops",
+    "source_ref": "malware--4c5f4b89-b45d-48cc-9b14-cf7c2f84f025",
+    "target_ref": "malware--9a9a7e05-0696-4c9d-a6e0-77eda72cbb30"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--8f018657-0fd7-4e3a-98ca-9de64dcb7ffc",
+    "created": "2022-11-30T07:25:20.918294Z",
+    "modified": "2022-11-30T07:25:20.918294Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--01e28736-2ffc-455b-9880-ed4d1407ae07",
+    "target_ref": "malware--ed10ed75-b0b6-4203-b7af-a020aa82bdaf"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--9a3195d8-edc4-4e57-be65-7099220b0005",
+    "created": "2022-11-30T07:25:20.918294Z",
+    "modified": "2022-11-30T07:25:20.918294Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--1e7e691e-bf47-497f-9a47-5f3472c53964",
+    "target_ref": "malware--cb812815-2ba8-475b-a3e6-09477e050849"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--cb3170d4-ffeb-4993-a737-221267d50d5f",
+    "created": "2022-11-30T07:25:20.922634Z",
+    "modified": "2022-11-30T07:25:20.922634Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--6d2a4e1c-0328-472e-9c72-979aee91b2cb",
+    "target_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--25bafafe-f9f1-4356-aab6-089f66fa5704",
+    "created": "2022-11-30T07:25:20.924182Z",
+    "modified": "2022-11-30T07:25:20.924182Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--a1707187-8918-497d-be93-9b8867bf5b72",
+    "target_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--8bd63c92-565c-47f6-8fa4-65aa78b05a7c",
+    "created": "2022-11-30T07:25:20.924182Z",
+    "modified": "2022-11-30T07:25:20.924182Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--80d566da-08ef-4c3c-8d49-53c20a8cc5a6",
+    "target_ref": "malware--4c5f4b89-b45d-48cc-9b14-cf7c2f84f025"
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--7a09c726-14da-45e8-a127-925378fe0e21",
+    "created": "2022-11-30T07:25:20.92672Z",
+    "modified": "2022-11-30T07:25:20.92672Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--31bf96b7-1baa-452f-82a6-4f162ce27bf3",
+    "target_ref": "malware--9a9a7e05-0696-4c9d-a6e0-77eda72cbb30"
+},
+{
+    "type": "threat-actor",
+    "spec_version": "2.1",
+    "id": "threat-actor--91e037c9-26f3-419c-b544-b35f76b6293d",
+    "created": "2022-11-30T10:59:52.451682Z",
+    "modified": "2022-11-30T10:59:52.451682Z",
+    "name": "TA551",
+    "aliases": [
+        "Shathak",
+        "GOLD CABIN"
+    ]
+},
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--d045b824-1bc6-4fc0-a45f-0bec052cecb5",
+    "created": "2022-11-30T11:02:33.524212Z",
+    "modified": "2022-11-30T11:02:33.524212Z",
+    "relationship_type": "uses",
+    "source_ref": "threat-actor--91e037c9-26f3-419c-b544-b35f76b6293d",
+    "target_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d"
+}
+]
